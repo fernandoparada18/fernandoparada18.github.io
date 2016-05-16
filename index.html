@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>..::Fernando Parada::..</title>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!--Import my style-->
+  <link type="text/css" rel="stylesheet" href="css/main.css"/>
+  <!--Import font-awesome.css para los iconos vectoriales-->
+  <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+  <!--Import animate.css para los efectos de entrada-->
+  <link type="text/css" rel="stylesheet" href="css/animate.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper grey darken-4" >
+        <a href="#" class="logo brand-logo">Fernando Parada</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="">Blog</a></li>
+          <li><a href="">Acerca de</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="">Blog</a></li>
+          <li><a href="">Acerca de</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="row"></div>
+      <div class="col s12 center">
+        <img src="img/photo.jpg" alt="" class="circle responsive-img animated zoomIn" width="256" height="273">
+      </div>
+
+      <div class="col s12">
+        <h4 class="center white-text animated zoomInDown retraso-1s">Desarrollador Back-End, amante del Software Libre.</h4>
+      </div>
+
+      <div class="row"></div>
+      <div class="col s12 center white-text fa-4x animated zoomInUp retraso-2s">
+        <a href="http://codepen.io/fernandoparada18/" target="_blank"><i class="fa fa-codepen rsocial"></i></a>
+        <a href="https://www.facebook.com/fernandoparada18" target="_blank"><i class="fa fa-facebook-official rsocial"></i></a>
+        <a href="https://github.com/fernandoparada18" target="_blank"><i class="fa fa-github rsocial"></i></a>
+        <a href="https://plus.google.com/u/0/+FernandoLeonelParada" target="_blank"><i class="fa fa-google-plus-official rsocial"></i></a>
+        <a href="" target="_blank"><i class="fa fa-instagram rsocial"></i></a>
+        <a href="" target="_blank"><i class="fa fa-linkedin-square rsocial"></i></a>
+        <a href="https://twitter.com/fernandoparada3" target="_blank"><i class="fa fa-twitter rsocial"></i></a>
+        <a href="https://www.youtube.com/channel/UCcaILImld9d_uDbv3KR0-kQ" target="_blank"><i class="fa fa-youtube-play rsocial"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(".button-collapse").sideNav();
+  });
+  </script>
+</body>
+</html>
